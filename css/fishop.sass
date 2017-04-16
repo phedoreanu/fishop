@@ -1,0 +1,37 @@
+$font-stack: Tahoma, Verdana, Arial, sans-serif
+$body-width: 36em
+
+body
+  width: $body-width
+  margin: 0 auto
+  font: 100% $font-stack
+  &.waiting *
+    cursor: progress
+
+h1
+  text-align: center
+
+select
+  outline: none
+  width: $body-width/3
+
+p, .pull-left
+  float: left
+
+.pull-right
+  float: right
+
+button
+  width: $body-width/4
+  height: 2.5em
+  margin: 6px
+  cursor: pointer
+
+.buttons
+  margin: 9em 0 0 6em
+
+.shop-tank
+  border: 1px solid orange
+
+.owner-tank
+  border: 1px solid green

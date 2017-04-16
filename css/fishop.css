@@ -1,0 +1,36 @@
+body {
+  width: 36em;
+  margin: 0 auto;
+  font: 100% Tahoma, Verdana, Arial, sans-serif; }
+  body.waiting * {
+    cursor: progress; }
+
+h1 {
+  text-align: center; }
+
+select {
+  outline: none;
+  width: 12em; }
+
+p, .pull-left {
+  float: left; }
+
+.pull-right {
+  float: right; }
+
+button {
+  width: 9em;
+  height: 2.5em;
+  margin: 6px;
+  cursor: pointer; }
+
+.buttons {
+  margin: 9em 0 0 6em; }
+
+.shop-tank {
+  border: 1px solid orange; }
+
+.owner-tank {
+  border: 1px solid green; }
+
+/*# sourceMappingURL=fishop.css.map */

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>Welcome to Fishop!</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <link type='text/css' rel='stylesheet' href="css/fishop.css"/>
+    <script src='js/fishop.js'></script>
+</head>
+<body>
+    <h1>Welcome to the Fishop!</h1>
+
+    <div class="pull-left">
+        <p>Shop tank:</p><br/>
+        <select id="shopTank" class="shop-tank" size="25" multiple></select><br/>
+        <p id="shopTankTotal"></p>
+    </div>
+
+    <div class="buttons pull-left">
+        <button id="shopTankButton" title="Please select some fish" disabled>--&gt;</button>
+        <br/>
+        <button id="ownerTankButton" title="Return the selected fish" disabled>&lt;--</button>
+    </div>
+
+    <div class="pull-right">
+        <p>New tank:</p><br/>
+        <select id="ownerTank" class="owner-tank" size="25" multiple></select><br/>
+        <p id="ownerTankTotal"></p><br/>
+        <button id="buy" class="pull-right" disabled>&pound; Buy fish</button>
+    </div>
+</body>
+</html>
